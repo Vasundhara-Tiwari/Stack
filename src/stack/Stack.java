@@ -48,6 +48,6 @@ public class Stack {
         int result = top.data;
         top = top.next;
         length--;
-        return  result;
+        return result;
     }
 }
